@@ -1,0 +1,19 @@
+import random
+dice_flips = [11]
+dice = ["One", "Two", "Three", "Four", "Five", "Six"]
+while dice_flips.count("Six") < 3:
+ dice_flips.append(dice[random.randint(0,6)])
+print (dice_flips)
+print (len(dice_flips))
+!กา[11, 'Six', 'Six', 'Four', 'Two', 'Two', 'Three', 'Six']
+8
+
+import random
+dice_flips = [7]
+dice = ["One", "Two", "Three", "Four", "Five", "Six"]
+while dice_flips.count("Six") < 3:
+ dice_flips.append(dice[random.randint(0,6)])
+print (dice_flips)
+print (len(dice_flips)) 
+!กา[7, 'One', 'Five', 'Six', 'Three', 'Two', 'One', 'Five', 'Three', 'Two', 'Four', 'Six', 'Two', 'Six']
+14
